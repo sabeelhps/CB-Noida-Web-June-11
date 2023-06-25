@@ -28,6 +28,23 @@ h3{
     font-style: italic;
 }
 
+.film{
+    border: 2px solid green;
+    text-transform: uppercase;
+}
+
+.blue{
+    color: blue;
+}
+
+.fs-1{
+    font-size: 16px;
+}
+
+.fav-movie.film{
+    font-size: 40px;
+}
+
 /* Attribute Selector */
 a[href="http://google.com"]{
     font-size: 30px;
@@ -37,4 +54,52 @@ a[href="http://google.com"]{
 input[type="email"]{
     background-color: aqua;
     border: 5px solid red;
+}
+
+/* Descendant selector */
+
+p strong{
+    color: purple;
+    font-weight: bold;
+}
+
+section{
+    width: 200px;
+    height: 200px;
+    border: 5px solid red;
+    background-color: aqua;
+}
+
+
+/* Pseudo Selectors */
+section:hover{
+    border-radius: 50%;
+}
+
+h1:active{
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+
+input:focus{
+    background-color: lightcoral;
+    font-size: 30px;
+}
+
+a:visited{
+    color: green;
+}
+
+/* Structral Pseudo class */
+
+ul li:first-child{
+    text-decoration: line-through;
+}
+
+ul li:last-child{
+    text-decoration: line-through;
+}
+
+ol li:nth-of-type(2n+5){
+    color: blueviolet;
 }
