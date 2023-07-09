@@ -1,0 +1,54 @@
+section{
+    height: 200px;
+    width: 400px;
+    border: 3px solid black;
+    margin: 0px auto;
+    background-color: lightblue;
+}
+
+#special{
+    background-color: lightcoral;
+}
+
+.some-section{
+    background-color: lightgreen;
+}
+
+div{
+    height: 200px;
+    width: 400px;
+    border: 3px solid black;
+    margin: 0px auto;
+}
+
+.b{
+    background-color: palegreen;
+}
+
+.a{
+    background-color: palevioletred;
+}
+
+ul > li{
+    border-top: 5px solid red;
+    font-size: 60px;
+}
+
+ul > li ol{
+    border-top: inherit;
+}
+
+ol li{
+    border-top: inherit;
+}
+
+h2 + p + p{
+    background-color: aqua;
+}
+
+article h2 ~ p{
+    text-decoration: line-through;
+}
+
+
+
