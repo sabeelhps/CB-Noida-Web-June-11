@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    border-top: 20px solid #ccc;
+    border-right: 20px solid purple;
+    border-bottom: 20px solid orange;
+    border-left: 20px solid lightgreen;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: spinner;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}

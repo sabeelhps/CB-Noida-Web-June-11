@@ -1,0 +1,45 @@
+section{
+    width: 400px;
+    border: 2px solid black;
+    height: 400px;
+    margin: 30px auto;  
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: black;
+}
+
+article{
+    width: 40px;
+    height: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+    animation-name: equalizer;
+    animation-duration: 500ms;
+    margin-right: 10px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+article:nth-of-type(1){
+    animation-timing-function: ease-in;
+}
+
+article:nth-of-type(2){
+    animation-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+article:nth-of-type(3){
+    animation-timing-function: ease-in-out;
+}
+article:nth-of-type(4){
+    animation-timing-function: ease-out;
+}
+
+article:nth-of-type(5){
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+@keyframes equalizer {
+    100%{
+        height: 300px;
+    }
+}

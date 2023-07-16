@@ -1,0 +1,35 @@
+section{
+    border: 3px solid black;
+    background-color: palevioletred;
+    height: 30px;
+    width: 300px;
+    margin: 10px auto;
+    animation-name: slider;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes slider{
+    25%{
+        height: 200px;
+        background-color: lightgreen;
+    }
+    50%{
+        height: 300px;
+        background-color: lightcoral;
+    }
+    75%{
+        height: 500px;
+        background-color: aqua;
+        width: 500px;
+    }
+    100%{
+        height: 600px;
+        background-color: purple;
+        width: 200px;
+    }
+}
