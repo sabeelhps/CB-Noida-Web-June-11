@@ -1,0 +1,35 @@
+section{
+    width: 80vw;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 1rem;
+}
+
+section h1{
+    font-size: 7rem;
+    text-align: center;
+}
+
+section p{
+    font-size: 1.5rem;
+}
+
+@media screen and (width<=1041px){
+    section h1{
+        font-size: 5rem;
+        color: lightcoral;
+    }
+}
+
+@media screen and (width<=725px){
+    section h1{
+        font-size: 3rem;
+        color: green;
+    }
+}
+
+@media screen and (width>=1000px), (orientation: portrait) {
+    section{
+        background-color: aqua;
+    }
+}

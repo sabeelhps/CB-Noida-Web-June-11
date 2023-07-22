@@ -1,3 +1,6 @@
 1. Flipkart Fixed Navbar
 2. Sticky Phone book : https://developer.mozilla.org/en-US/play
 3. Card similar to zomato or flipkart
+4. Animated Cart Button
+5. Bouncing Ball
+

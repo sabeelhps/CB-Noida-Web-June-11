@@ -1,0 +1,23 @@
+:root{
+    --border-ka-color: purple;
+    --border-ka-style: solid;
+    --border-ka-width: 20px;
+    --primary-color: rgb(121, 0, 16);
+    --secondory-color: rgb(14, 132, 195);
+    --p-1: 1rem;
+    --p-2: 2rem;
+    --text-color: white;
+}
+
+h1{
+   border-color: var(--border-ka-color); 
+   border-width: var(--border-ka-width);
+   border-style: var(--border-ka-style);
+}
+
+button{
+    background-color: var(--primary-color);
+    padding: var(--p-1) var(--p-2);
+    color: var(--text-color);
+    font-size: large;
+}
