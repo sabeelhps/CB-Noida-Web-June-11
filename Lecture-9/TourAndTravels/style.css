@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    transform: translateY(100px);
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+#box h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#box p{
+    font-size: 2rem;
+}
+#box button{
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@keyframes fadeIn{
+    100%{
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+}
