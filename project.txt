@@ -3,4 +3,5 @@
 3. Card similar to zomato or flipkart
 4. Animated Cart Button
 5. Bouncing Ball
-
+6. Portfolio - https://64c664d5457ce7053c868c26--whimsical-taffy-e2f3cd.netlify.app/
+7. Twitter Layout
