@@ -1,0 +1,10 @@
+`Sum of 2 and 3 is ${2+3}`
+'Sum of 2 and 3 is 5'
+const firstName = "Kartik";
+undefined
+const lastName = "Mathur";
+undefined
+const fullName = `Mr.${lastName}, ${firstName}`
+undefined
+fullName
+'Mr.Mathur, Kartik'

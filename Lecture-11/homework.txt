@@ -1,0 +1,19 @@
+1. Write a js program to get a number from the user and print whether it is positive or negative.
+
+2. Write a JS program to solve quadratic equations (use if, else if and else).
+    ax^2 + bx + c
+
+3. Given P,R and T calculate Simple Interest.
+
+4. Write a JS program that takes three numbers from the user and prints the greatest number.
+
+
+5. Write a JS program that reads two floating-point numbers and tests whether they are the same up to three decimal places.
+    Test Data
+    Input floating-point number: 25.586
+    Input floating-point another number: 25.589
+    Expected Output :
+    They are different
+6. Write a JS program to find the number of days in a month.
+
+7. Write a JS program that takes a year from the user and prints whether it is a leap year or not.
