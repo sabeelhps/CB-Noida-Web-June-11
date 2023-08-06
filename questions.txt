@@ -1,0 +1,73 @@
+1.You are given a number n .print all the even numbers upto n.
+2.You are given a number n . find sum of all the numbers upto n.
+3.You are given a number n. Reverse all the digit in a number
+    e.g.1->  = 54123 
+    anss = 32145
+
+    e.g.2-> 67491
+        ans = 19476
+4. You are given a number n. You have to print the table for that number.
+5. You are given a number n. You have to check whether the number is palindrome.
+6. 6.You are given a number n . You have to check whether the given number is armstrong number
+
+    e.g : 371
+        
+        27+343+1 =>371 - is a armstrong number.
+
+7. Print all the factors of a given number.
+
+8. Convert given temprature in celcius to Fahrenheit (Google the formula)
+9. You are given two numbers n and m. find the sum of all numbers in this range(n and m including).
+
+
+10.You are given a string = "This fox jumps over a white lazy dog"
+                            "dog lazy white a over jumps fox This"
+
+11.You are given a string = "This fox jumps over a white lazy dog"
+                            "sihT xof spmuj revo a etihw yzal god"
+
+12. Write a js program to get a number from the user and print whether it is positive or negative.
+
+13. Write a JS program to solve quadratic equations (use if, else if and else).
+    ax^2 + bx + c
+
+14. Given P,R and T calculate Simple Interest.
+
+15. Write a JS program that takes three numbers from the user and prints the greatest number.
+
+
+16. Write a JS program that reads two floating-point numbers and tests whether they are the same up to three decimal places.
+    Test Data
+    Input floating-point number: 25.586
+    Input floating-point another number: 25.589
+    Expected Output :
+    They are different
+17. Write a JS program to find the number of days in a month.
+
+18. Write a JS program that takes a year from the user and prints whether it is a leap year or not.
+
+19.
+	n=5
+
+	*
+	* *
+	* * *
+	* * * *
+	* * * * *
+
+
+20.
+	n=5
+	
+	1
+	1 2
+	1 2 3
+	1 2 3 4 
+	1 2 3 4 5
+
+
+
+
+
+
+ 
