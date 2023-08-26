@@ -69,6 +69,7 @@ const menu = [
     }
 ];
 
+
 // function isVeg(food) {
 //     if (food.name.toLowerCase().includes('egg') || food.name.toLowerCase().includes('chicken')) {
 //         return false;
