@@ -1,0 +1,23 @@
+.para{
+    background-color: aliceblue;
+    color: purple;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.one{
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
+
+.two{
+    color: purple;
+}
+
+.three{
+    font-size: 1.5rem;
+}
