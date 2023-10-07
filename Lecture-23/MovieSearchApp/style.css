@@ -1,0 +1,21 @@
+#container{
+    width: 80vw;
+    border: 2px solid #ccc;
+    margin: 30px auto;
+    padding: 1.2rem;
+}
+
+#container input{
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+#container label{
+    font-size: 1.8rem;
+}
+
+#container button{
+    font-size: 1.8rem;
+}
