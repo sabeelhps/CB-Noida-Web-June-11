@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<%- include("./partials/header") %>
+<%- include("./partials/navbar") %>
 
-    <h1>My First EJS Template</h1>
-    <h2>My Random Number : <%= randomNumber %></h2>
-    <h2><%= 1+2+3+4 %></h2>
-    <a href="/login">Login</a>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa tenetur cupiditate explicabo! Eius, laboriosam, consequatur ipsum perferendis voluptas similique molestias placeat facere iure beatae unde quisquam assumenda aliquid quam at!</p>
-    <img src="https://images.unsplash.com/photo-1697564070857-58a1a1318abc?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="">
-</body>
-</html>
+<h1>My First EJS Template</h1>
+<h2>My Random Number : <%= randomNumber %></h2>
+<% if(randomNumber%2==0){ %>
+    <h2><%=randomNumber%>  is Even</h2>
+<% }else{ %>
+    <h2><%=randomNumber%>  is Odd</h2>
+<% } %>
+<h2><%= 1+2+3+4 %></h2>
+<a href="/login">Login</a>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa tenetur cupiditate explicabo! Eius, laboriosam, consequatur ipsum perferendis voluptas similique molestias placeat facere iure beatae unde quisquam assumenda aliquid quam at!</p>
+<img src="https://images.unsplash.com/photo-1697564070857-58a1a1318abc?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="">
+
+<%- include("./partials/footer") %>

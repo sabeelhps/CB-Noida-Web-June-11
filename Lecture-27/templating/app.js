@@ -1,8 +1,14 @@
 const express = require('express');
 const app = express();
+const path = require('path');
+
+// console.log(process.cwd());
+// console.log(__dirname);
 
 // You are telling express that we will use ejs for creating templates.
 app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 const products = [
     {
