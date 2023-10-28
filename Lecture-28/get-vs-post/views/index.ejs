@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 600px;
+            border: 2px solid black;
+            padding: 1rem;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">GET vs POST</h1>
+
+    <section> 
+        <h2>GET</h2>
+        <form method="get" action="/users">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+    
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section> 
+        <h2>POST</h2>
+        <form method="post" action="/users">
+            <label for="username">Email</label>
+            <input type="text" name="username" id="username">
+    
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+   
+    
+</body>
+</html>

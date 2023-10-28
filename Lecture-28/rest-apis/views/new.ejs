@@ -1,0 +1,23 @@
+<%-  include("./partials/header") %>
+
+<main class="container mt-5 border w-75 p-3">
+    <h1>Add New Product</h1>
+    <form method="post" action="/products">
+        <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" type="text" name="name" id="name" placeholder="Name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="price">Price</label>
+            <input class="form-control" type="number" name="price" id="price" placeholder="Price">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="image">Image Url</label>
+            <input class="form-control" type="text" name="image" id="image" placeholder="Image Url">
+        </div>
+        <button class="btn btn-sm btn-dark">Submit</button>
+      </form>
+</main>
+
+<%-  include("./partials/footer") %>
+    
