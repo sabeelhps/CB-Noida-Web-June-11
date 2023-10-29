@@ -1,0 +1,18 @@
+{
+    "id":1,
+    "user":{
+        id: 1,
+        username:"abc",
+        hash:"3256783dwbjn,skm"
+    },
+    comments: [
+        {
+            "id":1,
+            "comment":"first comment",
+        },
+        {
+            "id":3,
+            "comment":"Third"
+        }
+    ]
+}
