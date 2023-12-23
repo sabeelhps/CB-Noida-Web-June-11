@@ -1,0 +1,10 @@
+.Product{
+    width: 400px;
+    border: 5px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.Product img{
+    width: 100%;
+}
