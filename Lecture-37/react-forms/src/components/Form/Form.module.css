@@ -1,0 +1,31 @@
+.TodoLabel{
+    display: block;
+    width: 90%;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: purple;
+}
+
+.TodoInp{
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none;
+}
+.AddBtn{
+    font-size: 1.3rem;
+    padding: 1px 15px;
+    display: block;
+    background-color: purple;
+    color: white;
+    border: 10px solid white;
+    border-radius: 0.8rem;
+}
+
+.InvalidInp{
+    border: 3px solid red;
+}
