@@ -1,0 +1,15 @@
+.nav{
+    background-color: rgb(133, 31, 31);
+    font-size: 1.8rem;
+    padding: 1rem 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav ul{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
